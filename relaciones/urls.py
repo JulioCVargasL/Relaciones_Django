@@ -20,6 +20,8 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('uno/', include('one_to_one.urls'), name='one_to_one.urls'),
-    path('muchos_a_uno/', include('many_to_one.urls'), name='many_to_one.urls')
+    path('muchos_a_uno/', include('many_to_one.urls'), name='many_to_one.urls'),
+    path('muchos_a_muchos/', include('many_to_many.urls'), name='many_to_many.urls'),
+
 
 ]
