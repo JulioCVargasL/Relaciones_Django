@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'one_to_one',
     'many_to_many',
     'many_to_one',
-    'crud.apps.CrudConfig',
+   
 ]
 
 MIDDLEWARE = [
